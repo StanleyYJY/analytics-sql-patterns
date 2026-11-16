@@ -1,0 +1,6 @@
+[project]
+name = "analytics-sql-patterns"
+version = "0.1.0"
+description = "Fifteen analytics SQL patterns (cohorts, retention, rolling windows, RFM, gaps and islands, market basket) run on public retail data with DuckDB."
+requires-python = ">=3.11"
+dependencies = ["duckdb>=1.1", "pandas>=2.2", "openpyxl>=3.1", "pyarrow>=17", "tabulate>=0.9"]
